@@ -1,10 +1,15 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
+// import "./card/card.css";
+// import { Example } from "./components/Example/Example";
+import { Text } from "../src/text/text";
+// import { NewCard } from "../src/card/card";
 
 function App() {
   return (
     <>
-      <Example />{" "}
+      {/* <Example /> */}
+      <Text />
+      {/* <NewCard /> */}
     </>
   );
 }
